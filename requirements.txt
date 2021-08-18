@@ -12,7 +12,7 @@ django==3.0.5             # via -r requirements.in, djangorestframework
 djangorestframework==3.11.0  # via -r requirements.in
 djangorestframework-simplejwt==4.3.0 # via alex
 django-cors-headers==3.6.0  # by alex
-django-filter==2.4.0      # by alex  
+django-filter==2.4.0      # by alex
 gunicorn==20.0.4
 idna==2.9                 # via requests
 importlib-metadata==1.6.0  # via pluggy, pytest
