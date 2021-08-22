@@ -61,7 +61,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           stack_file_name: docker-compose.yaml
           script: |
-            sudo docker pull awarec2520/yamdb_final
+            sudo docker pull awarec2520/yamdb_final:v1
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env 
